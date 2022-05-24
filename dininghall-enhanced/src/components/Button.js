@@ -33,7 +33,7 @@ const Button = ({
     return(
        <button 
        className={`btn ${checkButtonStyle} ${checkButtonSize}` } 
-       onClick={onClick} 
+       onClick={onClick}
        type= {type}>
            {children} 
        </button>
