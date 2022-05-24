@@ -1,0 +1,64 @@
+.Preferences {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .preferenceList {
+    width: 70vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+
+.Preferences .preferenceTitle{
+    font-family: 'Inter';
+    font-size: 60px;
+  }
+
+.preferenceItem {
+    border-radius: 15px;
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.preferenceItem {
+    /* FLEXBOX */
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+  }
+
+body {
+    background-color:#FDFDE4;
+    color: Black;  
+    font-size: 15px; 
+}
+
+h3 {
+    margin: 4px 0px;
+}
+  
+img {
+    padding: 8px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .preferenceList {
+      grid-template-columns: 1fr 1fr;
+    }
+}
+  
+ @media only screen and (max-width: 800px) {
+    .preferenceList {
+      grid-template-columns: 1fr;
+    }
+}
+
