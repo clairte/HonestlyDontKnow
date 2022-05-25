@@ -1,10 +1,13 @@
 import React from 'react';
 import MenuLogo from '../../images/SignIn/MenuLogo.jpg';
+import { useNavigate, Link } from 'react-router-dom'; 
+import './Sign_In.css'; 
 
 function Sign_In() {
+    const navigate = useNavigate();
     return (
-        <div classname = "main">
-            <div classname = "sub-main">
+        <div className = "main">
+            <div className = "sub-main">
                 <div>
                     <div classname = "imgs">
                         <div classname = "container-image">
@@ -16,12 +19,17 @@ function Sign_In() {
                             <a>UCLA Dining Hall Menu</a>
                         </div>
                         <div>
-                            <input type = "text" placeholder = "Email" classname = "name"/>
+                            <input type = "text" placeholder = "Email" className = "name"/>
                         </div>
                         <div>
-                            <input type = "text" placeholder = "Password" classname = "name"/>
+                            <input type = "text" placeholder = "Password" className = "name"/>
                         </div>
-                        <button>Login</button>
+                        <button
+                        onClick = {()=> {
+                            navigate("/signin"); 
+                        }}
+                        >Login</button>
+                        <Link to= "/preferences"> Log In </Link>
                     </div>
                 </div>
             </div>
