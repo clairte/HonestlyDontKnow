@@ -26,7 +26,7 @@ function Preferences()
       buttonSize = "btn--medium"
       > Continue 
       </Button>
-        <Link to= "/"> Continue </Link>
+        <Link to= "/dininghallsmain"> Continue </Link>
       </div>
     </div>
   );

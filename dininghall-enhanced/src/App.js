@@ -9,9 +9,9 @@ function App() {
   return (
     <Router>
         <Routes>
-          <Route path = "/" element= {<DiningHallsMain />} /> 
+          <Route path = "/" element= {<Sign_In />} /> 
           <Route path = "/preferences" element= {<Preferences />} /> 
-          <Route path = "/signin" element= {<Sign_In />} /> 
+          <Route path = "/dininghallsmain" element= {<DiningHallsMain />} /> 
         </Routes>
       <div className="App">
 
