@@ -1,28 +1,11 @@
-import './App.css';
-import Button from './components/Button.js'; 
-import PreferenceList from './components/PreferenceList.js';
+import Dining_Halls_Main from './Frontend/Screens/Dining_Halls_Main.js';
+import Dining_Hall_Main from './Frontend/Screens/Dining_Hall_Main.css';
 
-function App() {
-
-  return (
-    <div className="App">
-      <PreferenceList />
-
-      <Button onClick = {() => {console.log("You Clicked On Me!")}}
-      type = "button" 
-      buttonStyle = "btn--primary--outline"
-      buttonSize = "btn--large"
-      > Click Me! </Button>
-
-      <Button onClick = {() => {console.log("You Clicked On Me!")}}
-      type = "button" 
-      buttonStyle = "btn--main-solid"
-      buttonSize = "btn--medium"
-      > Click Me! </Button>
-
-
-    </div>
-  );
+function App()
+{
+  return(
+    <Dining_Halls_Main /> 
+  ); 
 }
 
-export default App;
+export default App; 

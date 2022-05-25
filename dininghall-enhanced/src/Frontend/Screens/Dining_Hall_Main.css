@@ -1,0 +1,191 @@
+html, body {
+    background-color: #FDFDE4;
+}
+body {
+    transform: scale(0.6);
+    transform-origin: 0 0;
+    margin-top: 69px;
+    margin-bottom: -260px;
+
+ }
+
+.pg-3-buttons {
+    height:700px;
+    display: inline-flex;
+    width:400px;
+    background-color: #619866;
+    text-align: center;
+    display: inline-block;
+    border-radius: 25px;
+    padding:20px;
+    
+}
+
+.prompt-gate-button1 {
+    background-color: #F6E379;
+    color: #5F6C7B;
+    font-size: 30px;
+    width: 200px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top:80px;
+    border-radius: 25px;
+    padding:20px;
+    margin-bottom: 15px;
+
+
+}
+.prompt-gate-button2 {
+    background-color: #F6E379;
+    color: #5F6C7B;
+    font-size: 30px;
+    width: 200px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 60px;
+    border-radius: 25px;
+    padding:20px;
+    margin-bottom: 15px;
+
+
+}
+.prompt-gate-button3 {
+    background-color: #F6E379;
+    color: #5F6C7B;
+    font-size: 30px;
+    width: 200px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 25px;
+    padding:20px;
+    margin-top: 60px; 
+}
+.prompt-gate-button4 {
+    background-color: #606F81;
+    color: white;
+    font-size: 30px;
+    width: 300px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 100px;
+    border-radius: 25px;
+    padding:20px;
+    
+}
+
+.dropbtn1{
+    background-color: #BAE8E8;
+    font-size: 30px;
+    width: 600px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    padding:20px;
+    margin-left: 600px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+.dropbtn2{
+    background-color: #BAE8E8;
+    font-size: 30px;
+    width: 600px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    padding:20px;
+    margin-left: 600px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+.dropbtn3{
+    background-color: #BAE8E8;
+    font-size: 30px;
+    width: 600px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    padding:20px;
+    margin-left: 600px;
+    height: 100px;
+}
+.dropbtn1:hover, .dropbtn1:focus{
+    background-color: #2980B9;
+}
+
+.dropbtn2:hover, .dropbtn1:focus{
+    background-color: #2980B9;
+}
+.dropbtn3:hover, .dropbtn1:focus{
+    background-color: #2980B9;
+}
+
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+position: relative;
+margin-bottom:-500px;
+
+}
+  /* Style The Dropdown Button */
+  .dropbtn {
+    background-color: #606F81;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    margin: 0;                   
+  }
+  
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    overflow:auto;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #606F81;
+  }
+
+.date{
+  margin-left: 1300px;
+  width: 200px;
+}
