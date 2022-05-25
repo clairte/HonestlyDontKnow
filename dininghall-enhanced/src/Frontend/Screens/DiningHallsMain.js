@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom'; 
 
-function Dining_Halls_Main()
+function DiningHallsMain()
 {
     const navigate = useNavigate(); 
     return(
@@ -12,8 +12,16 @@ function Dining_Halls_Main()
                     navigate("/preferences"); 
                 }}
             > Go to Preferences </button>
+            <div>
+            <p> Hello This is Main </p>
+            <button
+                onClick = {()=> {
+                    navigate("/signin"); 
+                }}
+            > Go to Sign In </button>
+        </div>
         </div>
     ); 
 }
 
-export default Dining_Halls_Main; 
+export default DiningHallsMain; 
