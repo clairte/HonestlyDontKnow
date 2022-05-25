@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
+
+.main{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 90px 0 90px 0;
+}
+
+.sub-main{
+    justify-content: center;
+    display: flex;
+    height: 550px;
+    width: 35%;
+    box-shadow: 11px 12px 13px 12px #FDFDE4;
+    padding-top: 30px;
+    border-radius: 60px; 
+    background-color: white;
+}
+
+.imgs{
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 130px;
+}
+
+.container-image{
+    position: absolute;
+    width: 316px;
+    height: 273px;
+    left: 562px;
+    top: 62px;
+    background: #C4C4C4;
+}
+
+.MenuLogo{
+    height: 10px;
+    width: 10px;
+    border-radius: 13px;
+    
+}
+
+.input{
+    width: 300px;
+    height: 50px;
+    border-radius: 60px;
+    box-shadow: inset 0px 0px 25px 0px #888; 
+    border: none;
+    outline: none;
+}
+
+.title{
+    position: absolute;
+    width: 571px;
+    height: 65px;
+    left: 434px;
+    top: 373px;
+
+    font-family: 'Federo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
