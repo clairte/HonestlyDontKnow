@@ -22,10 +22,10 @@ function DiningHallsMain()
                 </div>
                 <div class="pg-3-buttons">
                     <div>
-                    <button class= "prompt-gate-button1" onclick="PromptGate_sp2(4)">Dining Hall</button>
-                    <button class= "prompt-gate-button2" onclick= "PromptGate_sp2(3)">Take out</button>
-                    <button class= "prompt-gate-button3" onclick= "PromptGate_sp2(2)">Food Truck</button>
-                    <button class= "prompt-gate-button4" onclick="PromptGate_sp2(1)">Back</button>
+                    <button class= "prompt-gate-button1" onClick="PromptGate_sp2(4)">Dining Hall</button>
+                    <button class= "prompt-gate-button2" onClick= "PromptGate_sp2(3)">Take out</button>
+                    <button class= "prompt-gate-button3" onClick= "PromptGate_sp2(2)">Food Truck</button>
+                    <button class= "prompt-gate-button4" onClick = {() => {navigate("/preferences");}} >Back</button>
                     </div>
                 </div>
             </div>
