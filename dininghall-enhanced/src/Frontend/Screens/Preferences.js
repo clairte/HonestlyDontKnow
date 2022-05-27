@@ -20,7 +20,7 @@ function Preferences()
       </div>
       <div>
       <Button 
-      onClick = {() => { navigate1("/main");}}
+      onClick = {() => { navigate1("/dininghallsmain");}}
       type = "button" 
       buttonStyle = "btn--main-solid"
       buttonSize = "btn--medium"

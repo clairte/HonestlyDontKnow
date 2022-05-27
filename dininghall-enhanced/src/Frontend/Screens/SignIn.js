@@ -3,7 +3,7 @@ import MenuLogo from '../../images/SignIn/MenuLogo.jpg';
 import { useNavigate, Link } from 'react-router-dom'; 
 import './Sign_In.css'; 
 
-function Sign_In() {
+function SignIn() {
     const navigate = useNavigate();
     return (
         <div className = "main">
@@ -26,10 +26,9 @@ function Sign_In() {
                         </div>
                         <button
                         onClick = {()=> {
-                            navigate("/signin"); 
+                            navigate("/preferences"); 
                         }}
                         >Login</button>
-                        <Link to= "/preferences"> Log In </Link>
                     </div>
                 </div>
             </div>
@@ -39,4 +38,4 @@ function Sign_In() {
 
 }
 
-export default Sign_In; 
+export default SignIn; 
